@@ -33,6 +33,7 @@
 
     <modules>
         <module>../sputnik-console</module>
+        <module>../sputnik-web</module>
     </modules>
 
     <dependencies>
