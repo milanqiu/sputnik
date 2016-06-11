@@ -1,6 +1,7 @@
 package net.milanqiu.sputnik;
 
 import net.milanqiu.mimas.junit.AssertExt;
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -8,6 +9,11 @@ import org.junit.Test;
  * @author Milan Qiu
  */
 public class MainTest {
+
+    @Test
+    public void test_addOne() throws Exception {
+        Assert.assertEquals(4, Main.addOne(3));
+    }
 
     @Test
     public void test_main() throws Exception {

@@ -1,6 +1,6 @@
 package net.milanqiu.sputnik;
 
-import net.milanqiu.mimas.collect.IntInt;
+import net.milanqiu.mimas.collect.tuple.IntInt;
 import net.milanqiu.mimas.instrumentation.TestConsts;
 
 /**
@@ -10,6 +10,10 @@ import net.milanqiu.mimas.instrumentation.TestConsts;
  * @author Milan Qiu
  */
 public class Main {
+
+    public static int addOne(int value) {
+        return value+1;
+    }
 
     public static void main(String[] args) {
         IntInt ii = new IntInt();
