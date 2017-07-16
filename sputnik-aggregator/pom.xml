@@ -32,6 +32,7 @@
     </developers>
 
     <modules>
+        <module>../sputnik-jar</module>
         <module>../sputnik-console</module>
         <module>../sputnik-web</module>
     </modules>
