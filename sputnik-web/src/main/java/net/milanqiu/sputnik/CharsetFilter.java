@@ -10,6 +10,7 @@ import java.io.IOException;
  * @author Milan Qiu
  */
 public class CharsetFilter implements Filter {
+
     public void destroy() {
     }
 
@@ -22,7 +23,5 @@ public class CharsetFilter implements Filter {
     }
 
     public void init(FilterConfig config) throws ServletException {
-
     }
-
 }
